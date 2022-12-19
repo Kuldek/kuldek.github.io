@@ -1,0 +1,43 @@
+ .crossed-out {
+     position: relative;
+     overflow: hidden;
+     color: rgba(239, 239, 239, 0.589);
+ }
+
+ .crossed-out:before,
+ .crossed-out:after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: 31%;
+     width: 38%;
+     height: 1px;
+     background-color: rgba(239, 239, 239, 0.589);
+     transform: rotate(9.81deg);
+ }
+
+ .crossed-out:after {
+     transform: rotate(-9.81deg);
+ }
+
+  .crossed-out2 {
+      position: relative;
+      overflow: hidden;
+      color: rgba(79, 79, 79, 0.589);
+  }
+
+  .crossed-out2:before,
+  .crossed-out2:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 31%;
+      width: 38%;
+      height: 1px;
+      background-color: rgba(79, 79, 79, 0.589);
+      transform: rotate(9.81deg);
+  }
+
+  .crossed-out2:after {
+      transform: rotate(-9.81deg);
+  }
